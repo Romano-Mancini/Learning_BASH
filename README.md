@@ -1,6 +1,6 @@
 # About the repository
 
-This repository contains Bash scripts and C programs for learning and exploring Linux operating system concepts (processes, threads, shells, synchronization, CPU Scheduling and deadlocks).
+This repository features a collection of Bash scripts and C programs designed to learn and explore key Linux operating system concepts, including process management, threading, shell scripting, synchronization, CPU scheduling, and deadlock handling.
 
 ## Structure
 
