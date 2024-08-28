@@ -16,7 +16,7 @@ The provided C program generates binary numbers by forking processes. Each proce
 To compile the C program, use the following command:
 `gcc -Wall -g -o binary_generator.exe binary_generator.c`
 
-Usage
+## Usage
 
 Run the compiled program with an integer argument representing the number of bits:
 
@@ -30,7 +30,7 @@ For example:
 
 This command will generate and print all 3-bit binary numbers.
 
-Example
+## Example
 
 For n = 3, the output will be:
 
