@@ -25,9 +25,9 @@ Run the program with the following command-line arguments:
 
 ./pgrm n strA strB
 
-> n: Number of threads (and thus the number of input/output file pairs).
-> strA: Base name for input files.
-> strB: Base name for output files.
+- n: Number of threads (and thus the number of input/output file pairs).
+- strA: Base name for input files.
+- strB: Base name for output files.
 
 For example:
 
@@ -46,13 +46,13 @@ Each input file should have the following format:
 
 Where:
 
-> The first line contains the number of integers.
-> The following lines contain the integers to be sorted.
+- The first line contains the number of integers.
+- The following lines contain the integers to be sorted.
 
 ## How It Works
-> Thread Creation: The program creates n threads. Each thread handles one input file and its corresponding output file.
-> Sorting: Each thread reads integers from its input file, sorts them using the merge sort algorithm, and writes the sorted integers to the output file.
-> Merge Sort: The sorting is performed using the merge sort algorithm, which divides the data into smaller segments, sorts them, and then merges the sorted segments.
+- Thread Creation: The program creates n threads. Each thread handles one input file and its corresponding output file.
+- Sorting: Each thread reads integers from its input file, sorts them using the merge sort algorithm, and writes the sorted integers to the output file.
+- Merge Sort: The sorting is performed using the merge sort algorithm, which divides the data into smaller segments, sorts them, and then merges the sorted segments.
 
 ## Example
 
