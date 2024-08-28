@@ -37,12 +37,12 @@ Each input file should contain a list of integers, one per line.
 
 Example data1.txt:
 
-5
-34
-99
-25
-102
-234
+- 5
+- 34
+- 99
+- 25
+- 102
+- 234
 
 ## How It Works
 
@@ -86,3 +86,4 @@ sorted.txt:
 - 89
 - 99
 - 102
+- 234
