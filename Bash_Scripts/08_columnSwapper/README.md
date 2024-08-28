@@ -20,11 +20,11 @@ This script reads pairs of values from a file, swaps the columns, and writes the
 ### Example
 
 If the input file `data.txt` contains:
-1 A
-2 B
-3 C
+- 1 A
+- 2 B
+- 3 C
 
 the script will modify it to:
-A 1
-B 2
-C 3
+- A 1
+- B 2
+- C 3
