@@ -1,4 +1,4 @@
-## README
+## File Manipulator
 
 ### Description
 This script is a Bash script that processes a text file. It performs the following tasks:
