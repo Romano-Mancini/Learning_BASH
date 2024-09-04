@@ -1,6 +1,6 @@
-## File Manipulator
+# File Manipulator
 
-### Description
+## Description
 This script is a Bash script that processes a text file. It performs the following tasks:
 
 1. **Argument Validation**: The script checks if exactly one argument (the filename) is passed. If there are too few or too many arguments, it exits with an appropriate message and code.
@@ -10,12 +10,12 @@ This script is a Bash script that processes a text file. It performs the followi
 5. **Appending Line Count**: The total number of lines is appended to the end of the original file.
 6. **Final Output**: The original file is overwritten with the sorted content and the appended line count.
 
-### Exit Codes
+## Exit Codes
 - **1**: Not enough arguments provided.
 - **2**: Too many arguments provided.
 - **0**: Script executed successfully.
 
-### Notes
+## Notes
 - The script modifies the original file, so ensure you have backups if necessary.
 - The temporary file used during processing is stored in the `/tmp` directory and is named uniquely using the process ID.
 
