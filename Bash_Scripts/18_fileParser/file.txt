@@ -1,0 +1,4 @@
+This is a simple test file.
+Replace all instances of apple with orange.
+We need padding on both sides.
+End of the line.
