@@ -1,5 +1,3 @@
-# README
-
 ## Script Description
 
 `prog.sh` is a Bash script that processes a file containing lines of alphabetic characters. The script performs the following transformations on the file's content:
