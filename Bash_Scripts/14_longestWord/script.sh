@@ -9,7 +9,7 @@ then
 	exit 1
 fi
 
-while read word
+for word in $(cat "file.txt")
 do
 	lenght=$(echo "$word" | wc -m)
 	if [ $lenght -gt $longestLength ]
